@@ -19,13 +19,13 @@ ul {
   /* colors */
   --hue: 159;
   /* HSL color mode */
-  --base-color: hsl(var(--hue) 36% 57%);
+  --base-color: rgb(0,0,0);
   --base-color-second: hsl(var(--hue) 65% 88%);
   --base-color-alt: hsl(var(--hue) 57% 53%);
-  --title-color: hsl(var(--hue) 41% 10%);
-  --text-color: hsl(0 0% 46%);
+  --title-color: rgb(0,0,0);
+  --text-color: rgb(0,0,0);
   --text-color-light: hsl(0 0% 98%);
-  --body-color: hsl(0 0% 98%);
+  --body-color: rgb(121, 116, 116);
 
   /* fonts */
   --title-font-size: 2rem;
@@ -77,6 +77,11 @@ body {
 
 .title {
   font: 700 1.875rem var(--title-font); /* 1 rem = 16 px */
+  color: var(--title-color);
+}
+
+.title1 {
+  font: 700 1.5rem var(--title-font); /* 1 rem = 16 px */
   color: var(--title-color);
 }
 
@@ -212,7 +217,7 @@ img {
   background: linear-gradient(
     270deg,
     hsla(var(--hue), 36%, 57%, 1) 0%,
-    hsla(var(--hue), 65%, 88%, 0.34) 100%
+    hsla(var(--base-color)) 100%
   );
 }
 
@@ -245,7 +250,7 @@ img {
 /* Session About */
 
 #about {
-  background: white;
+  background: var(--base-color);
 }
 
 #about .container {
@@ -253,16 +258,22 @@ img {
 }
 
 #about .text {
+  color: white;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   text-align: justify;
 }
 
 #about .text h1 {
+  color: white;
   margin-bottom: 1rem;
+}
+#about .title{
+  color: white;
 }
 
 #about .text p {
+  color: white;
   margin-bottom: 2rem;
 }
 
