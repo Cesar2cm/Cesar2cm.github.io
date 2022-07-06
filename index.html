@@ -12,14 +12,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/style.css" />
-    <bgsound
-      SRC="music/Apparat - Goodbye (Tradução) - Trilha Sonora Dark.mp3"
-    ></bgsound>
-    <embed
-      src="music/Apparat - Goodbye (Tradução) - Trilha Sonora Dark.mp3"
-      AUTOSTART="TRUE"
-      LOOP="TRUE"
-    ></embed>
   </head>
   <body>
     <!-- Cabecalho   -->
@@ -32,9 +24,10 @@
         >
         <div class="menu">
           <ul class="grid">
+            <li><a class="title" href="#music">Musica</a></li>
             <li><a class="title" href="#home">Início</a></li>
             <li><a class="title" href="#about">Sobre</a></li>
-            <li><a class="title" href="#services">Serviços</a></li>
+            <li><a class="title" href="#services">Personagens</a></li>
             <li><a class="title" href="#contact">Contato</a></li>
           </ul>
         </div>
@@ -86,7 +79,7 @@
               src="images/Dark-Netflix-Background-HD.png"
               alt="Simbologia de Dark"
             />
-            <img src="images/original.gif" alt="Simbologia de Dark">
+            <img src="images/original.gif" alt="Simbologia de Dark" />
           </div>
           <div class="text">
             <h2 class="title">Sobre Nós</h2>
@@ -191,7 +184,8 @@
       <!-- Terceira página -->
       <section class="section" id="services">
         <div class="container grid">
-          <header>
+          <header id="head">
+            
             <h2 class="title">Personagens importantes</h2>
             <p class="justify-text subtitle">
               A serie gira em torno de Jonas e suas variantes temporais, Noah um
@@ -298,14 +292,14 @@
           <div class="text">
             <h2 class="title">Entre em contato com a equipe desenvolvedora</h2>
             <p class="subtitle">
-              Entre em contato com a equipe de desenvolvimento, queremos tirar suas dúvidas,
-              ouvir suas críticas e sugestões.
+              Entre em contato com a equipe de desenvolvimento, queremos tirar
+              suas dúvidas, ouvir suas críticas e sugestões.
             </p>
 
             <div class="align_button">
               <a
                 class="button"
-                href="https://api.whatsapp.com/send?phone=5511012345678&text=Oi ! Quero mais informações sobre as pizzas"
+                href="https://api.whatsapp.com/send?phone=5511846834178&text=Oi ! Quero mais informações sobre o site"
                 target="_blank"
               >
                 <i class="icon-whatsapp"></i> Entrar em Contato
@@ -315,9 +309,11 @@
 
           <div class="link">
             <ul class="grid">
-              <li><i class="icon-phone"></i>(35) 3697-4950</li>
-              <li><i class="icon-map-pin"></i>Av. Dirce Pereira Rosa, 300</li>
-              <li><i class="icon-mail"></i>cesar.silva@alunos.ifsuldeminas.edu.br</li>
+              <li><i class="icon-phone"></i>(35) 98468-3417</li>
+              <li><i class="icon-map-pin"></i>Jardim Bela Vista, 71</li>
+              <li>
+                <i class="icon-mail"></i>cesar.silva@alunos.ifsuldeminas.edu.br
+              </li>
             </ul>
           </div>
         </div>
@@ -326,6 +322,13 @@
 
     <div class="divider"></div>
 
+    <section class="musica" id="music">
+      <audio autoplay="true" loop="loop" id="myAudio" controls="togglePlay">
+        <source
+          src="music/Apparat - Goodbye (Tradução) - Trilha Sonora Dark.mp3"
+        />
+      </audio>
+    </section>
     <!-- Rodapé -->
     <footer class="section">
       <div class="container grid">
@@ -335,13 +338,17 @@
           <p>Todos os direitos reservados.</p>
         </div>
         <div class="social">
-          <a href="https://instagram.com" target="_blank"
+          <a href="https://www.instagram.com/cesaraugusto3622/" target="_blank"
             ><i class="icon-instagram"></i
           ></a>
-          <a href="https://facebook.com" target="_blank"
+          <a
+            href="https://www.facebook.com/profile.php?id=100004824199264"
+            target="_blank"
             ><i class="icon-facebook"></i
           ></a>
-          <a href="https://youtube.com" target="_blank"
+          <a
+            href="https://www.youtube.com/watch?v=9HS__nx2BiI&ab_channel=NostalgiaSP"
+            target="_blank"
             ><i class="icon-youtube"></i
           ></a>
         </div>

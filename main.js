@@ -1,6 +1,7 @@
 
 const nav = document.querySelector('#header nav')
 const icons = document.querySelectorAll('nav .toggle')
+const musics = document.querySelectorAll('nav .togle')
 
 for(const element of icons){
   element.addEventListener('click', function() {

@@ -5,11 +5,6 @@
   box-sizing: border-box;
 }
 
-embed{
-  visibility: hidden;
-  position: absolute;
-}
-
 a {
   text-decoration: none;
 }
@@ -38,6 +33,7 @@ ul {
 
   --title-font: 'Poppins', sans-serif;
   --body-font: 'DM Sans', sans-serif;
+  --image-backgroung: images/dark;
 }
 
 #header {
@@ -187,8 +183,15 @@ img {
   height: auto;
 }
 
+
+
 .section {
   padding: 1rem 0;
+}
+
+.musica {
+  padding: 2rem 0;
+  text-align: center;
 }
 
 .section .title {
@@ -355,7 +358,6 @@ img {
 #contact .align_button {
   text-align: center;
 }
-
 
 /* Session Footer */
 
