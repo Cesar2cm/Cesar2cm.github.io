@@ -80,6 +80,7 @@ body {
 .title1 {
   font: 700 1.5rem var(--title-font); /* 1 rem = 16 px */
   color: var(--title-color);
+  text-align: center;
 }
 
 .title2 {
@@ -192,6 +193,11 @@ img {
 .musica {
   padding: 2rem 0;
   text-align: center;
+}
+.video {
+  padding: 2rem 0;
+  text-align: center;
+  background-image: url(images/1510470.jpg);
 }
 
 .section .title {
