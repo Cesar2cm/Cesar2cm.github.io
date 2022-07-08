@@ -107,6 +107,9 @@ nav {
   color: white;
   cursor: pointer;
 }
+video{
+  align-items: justify;
+}
 
 nav .icon-close {
   visibility: hidden;
@@ -194,10 +197,13 @@ img {
   padding: 2rem 0;
   text-align: center;
 }
-.video {
+.video{
   padding: 2rem 0;
-  text-align: center;
   background-image: url(images/1510470.jpg);
+}
+video {
+  width: 100%;
+  height: auto;
 }
 
 .section .title {
